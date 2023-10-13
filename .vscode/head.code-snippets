@@ -14,14 +14,13 @@
 			"marp: true",
 			"theme: XDU",
 			"paginate: true",
+			"math: katex",
 			"---",
-			"<!-- backgroundImage: url(\"../images/bg2.png\")  -->",
-			"",
-			"<!-- _backgroundImage: url(\"../images/bg.png\")",
+			"<!-- backgroundImage: url(\"../images/bg2.png\")",
+			"_backgroundImage: url(\"../images/bg.png\")",
 			"_paginate: false  -->",
-			
 			"",
-			"<img src=\"../images/logo.jpg\" alt=\"logo\" style=\"zoom:12%;\" />",
+			"<img src=\"../images/logo.png\" alt=\"logo\" style=\"zoom:14%;\" />",
 			"",
 			"<style scoped>",
 			"h1 {",
@@ -32,17 +31,23 @@
 			"}",
 			"</style>",
 			"",
-			"# $1",
+			"<h1 class=\"title\">$1</h1>",
 			"<NAME> 田震雄",
 			"<DATE> $2",
 			"",
 			"---",
 			"",
-			"$0",
+			"<!--_paginate: false  -->",
+			"",
+			"# 1. 目录",
+			"",
+			"<!-- 在此生成目录 -->",
+			"",
+			"![bg right:45% ](../images/bg5.jpg)",
 			"",
 			"---",
+			"",
 			"![bg](../images/ending.png)"
-
 		],
 		"description": "slide head"
 	},
@@ -50,7 +55,8 @@
 		"scope": "markdown, md",
 		"prefix": "cimg",
 		"body": [
-			"display: block;margin: auto;\" />"
+			"<img src=\"$1\" alt=\"img\" style=\"zoom: $2%;display: block;margin: auto;\" />"
+			""
 		],
 		"description": "centerimg"
 	}

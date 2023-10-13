@@ -36,6 +36,19 @@ SJ {
     font-family: Microsoft Yahei, Arial, Helvetica, sans-serif;
 }
 
+.title {
+    font-size: 72px;
+    /* 默认标题字体大小 */
+    font-weight: bold;
+    /* 标题字体加粗 */
+    text-align: center;
+    /* 标题居中对齐 */
+    color: #333;
+    /* 标题颜色 */
+    text-transform: uppercase;
+    /* 标题大写 */
+}
+
 NAME {
     font-size: 24px;
     padding-left: 780px;
@@ -52,11 +65,11 @@ DATE {
 
 /* 封面大标题 */
 h1 {
-    text-align: center;
+    text-align: left;
     color: rgb(0, 0, 0);
-    margin-top: 70px;
-    margin-bottom: 70px;
-    font-size: 72px;
+    margin-top: 7px;
+    margin-bottom: 12px;
+    font-size: 54px;
 }
 
 /* 章节标题 */
@@ -65,13 +78,13 @@ h2 {
     margin-top: 0px;
     margin-bottom: 10px;
     color: rgb(2, 70, 110);
-    font-size: 54px;
+    font-size: 36px;
 }
 
 /* 具体的小标题 */
 h3 {
     color: rgb(60, 112, 198);
-    font-size: 36px;
+    font-size: 30px;
     text-align: left;
     margin-top: 5px;
     margin-bottom: 5px;
