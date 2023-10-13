@@ -1,3 +1,3 @@
 # marp_theme_xidian
 
-marp西电模版
+marp西电模版，自用
