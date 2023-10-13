@@ -88,6 +88,11 @@ $$
 2. b
 3. c
 
+1) One动态显示
+   1) one
+2) Two
+3) Three
+
 * 有动画的列表
   * 用`*`修饰
 * 逐个显示
@@ -148,13 +153,13 @@ func (c *cpuCollector) updateStat(ch chan<- prometheus.Metric) error {
 ## 3.2. 生成序号&&目录
 
 基于[markdown-all-in-one](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
-<img src="<./CleanShot 2023-10-13 at 16.25.44@2x.png>" alt="img" style="zoom: 40%;display: block;margin: auto;" />
+<img src="./CleanShot 2023-10-13 at 16.25.44@2x.png" alt="img" style="zoom: 40%;display: block;margin: auto;" />
 
 ---
 
 ### 3.2.1. 实时预览&&导出
 * 实时预览效果：
-  * <img src="<CleanShot 2023-10-13 at 16.30.45@2x.png>" alt="img" style="zoom: 15%;display: block;margin: auto;" />
+  * <img src="CleanShot 2023-10-13 at 16.30.45@2x.png" alt="img" style="zoom: 15%;display: block;margin: auto;" />
    
 * 导出为html一定要在md文件相同目录下，否则相对路径的图片会失效
 * 导出的html文件有演讲者模式
