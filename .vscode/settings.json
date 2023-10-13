@@ -1,0 +1,9 @@
+{
+  "markdown.marp.themes": [
+    "https://example.com/foo/bar/custom-theme.css",
+    "./themes/XDU.css"
+  ],
+  "[markdown]": {
+    "editor.tabCompletion": "onlySnippets"
+  },
+}

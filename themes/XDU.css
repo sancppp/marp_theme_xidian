@@ -1,0 +1,117 @@
+/* @theme XDU */
+
+@charset "UTF-8";
+@import 'gaia';
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900|Roboto+Mono:400,700&display=swap');
+@import '~highlight.js/styles/sunburst';
+
+/* 文本段 */
+section {
+    font-size: 24px;
+    /* padding：边框留白宽度 */
+    padding: 50px;
+    /* padding-top: 0px; */
+    text-align: left;
+    font-family: Microsoft Yahei, Arial, Helvetica, sans-serif;
+    background: whitesmoke;
+    /* 4:3 */
+    width: 960px;
+    height: 720px;
+}
+
+/* Styling page number */
+section::after {
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #d3cfcf;
+    content: 'Page ' attr(data-marpit-pagination) ' / ' attr(data-marpit-pagination-total);
+
+}
+
+/* 段首缩进2字符 */
+SJ {
+    text-indent: 2em;
+    font-size: 24px;
+    padding: 50px;
+    text-align: left;
+    font-family: Microsoft Yahei, Arial, Helvetica, sans-serif;
+}
+
+NAME {
+    font-size: 24px;
+    padding-left: 780px;
+    text-align: end;
+    font-family: Microsoft Yahei, Arial, Helvetica, sans-serif;
+}
+
+DATE {
+    font-size: 24px;
+    padding-left: 760px;
+    text-align: end;
+    font-family: Microsoft Yahei, Arial, Helvetica, sans-serif;
+}
+
+/* 封面大标题 */
+h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-top: 70px;
+    margin-bottom: 70px;
+    font-size: 72px;
+}
+
+/* 章节标题 */
+h2 {
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: rgb(2, 70, 110);
+    font-size: 54px;
+}
+
+/* 具体的小标题 */
+h3 {
+    color: rgb(60, 112, 198);
+    font-size: 36px;
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+h4 {
+    font-size: 30px;
+    text-align: left;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+
+h5 {
+    font-size: 30px;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h6 {
+    font-size: 25px;
+    text-align: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+header {
+    left: 50px;
+    right: 50px;
+    top: 10px;
+    height: 50px;
+    background-image: url("./images/logo.png");
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    text-align: left;
+    color: rgb(60, 112, 198);
+    font-weight: bold;
+    font-size: 36px;
+}
