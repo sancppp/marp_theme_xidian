@@ -19,10 +19,9 @@ _class: cover_a -->
 
 ---
 
-
-<!-- _class: mulu -->
-<!-- _header: "CONTENTS" -->
-<!--_paginate: false  -->
+<!-- _class: mulu 
+_header: "CONTENTS" 
+_paginate: false  -->
 
 <!-- 在此生成目录toc -->
 - [1. 背景](#1-背景)
@@ -339,7 +338,7 @@ asmlinkage __visible void __softirq_entry __do_softirq(void)
 ```
 
 ![#c w:500](CleanShot_2023-10-14_at_23.28.56@2x.png)
-<!-- 软中断被调用时的入口，还可以通过hook调度函数 -->
+<!-- CPU作为整个自动最核心的部件，其工作方式足够简单，就是读取指令并执行，又因为对CPU的监控会严重影响性能，所以对CPU硬件的监控是不合理的。因此，我们需要从CPU的周边着手：示例程序hook了软中断被调用时的入口。除此之外，还可以通过hook内核的调度函数，通过监控进程的相关状态分析CPU的运行。 -->
 
 ## 2.4. oom_kills_total
 
