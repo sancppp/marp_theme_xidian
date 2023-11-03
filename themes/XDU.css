@@ -1,10 +1,11 @@
 /* @theme XDU */
-
+/* @auto-scaling fittingHeader,math */
 @charset "UTF-8";
 @import 'default';
 @import 'https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.0/css/all.min.css';
 @import 'https://fonts.bunny.net/css?family=Lato:400,900|Roboto+Mono:400,700&display=swap';
-@auto-scaling true;
+/* auto-scaling : 自适应缩放 */
+/* @auto-scaling true; */
 @import url(https://fonts.bunny.net/css?family=charm:700);
 
 
@@ -18,7 +19,7 @@
     --font-size-2-3: 38px;
     --font-size-4-5: 30px;
     /*文本字号*/
-    --font-size-main: 20px;
+    --font-size-main: 22px;
     --font-size-footer: 22px;
     --font-size-page: 12px;
     --font-size-code: 10px;
@@ -40,11 +41,8 @@ section {
     font-size: var(--font-size-main);
     color: var(--color-main);
     text-align: justify;
-    background: whitesmoke;
-    /* 4:3 */
-    width: 960px;
-    height: 720px;
     justify-content: flex-start;
+    background: whitesmoke;
 }
 
 /* 右下角页标 */
@@ -102,7 +100,7 @@ header {
 
 ol {
     line-height: 1.4rem;
-    padding-left: 15%;
+    padding-left: 35px;
 }
 
 ul {
@@ -201,16 +199,22 @@ footer::after {
 /* 代码 */
 pre {
     text-align: left;
+    /* 边框 */
     border: 2px solid var(--color-few);
+    /* 圆角 */
     border-radius: 10px;
-    margin: 0.5em 0 0;
+    margin: 1.5em 0 0;
     overflow: auto;
+    font-size: 0.8rem;
+    white-space: pre-wrap !important;
 
     code {
+        font-size: 0rem;
         box-sizing: border-box;
         margin: 0;
         min-width: 100%;
         padding: 1.5em;
+        word-break: break-word;
     }
 }
 
@@ -249,10 +253,8 @@ pre {
 /* 段首缩进2字符 */
 SJ {
     text-indent: 2em;
-    font-size: 24px;
     padding: 50px;
     text-align: left;
-    font-family: var(--font-family-main)
 }
 
 /* `code` */
@@ -279,6 +281,17 @@ em {
     font-style: normal;
 }
 
+/* 各种字号 */
+P28 {
+    font-size: 28px;
+}
+
+P20 {
+    font-size: 20px;
+}
+
+
+/* img */
 img {
     max-width: 100%;
     border-radius: 8px;
@@ -308,16 +321,18 @@ section.cover_a {
 }
 
 section.cover_a THEME {
-    font-size: 72px;
     /* 默认标题字体大小 */
-    font-weight: bold;
+    font-size: 50px;
     /* 标题字体加粗 */
-    text-align: center;
+    font-weight: bold;
     /* 标题居中对齐 */
-    color: #333;
+    text-align: center;
     /* 标题颜色 */
-    text-transform: uppercase;
+    color: #333;
     /* 标题大写 */
+    /* text-transform: uppercase; */
+    /* 是否换行 */
+    white-space: nowrap;
 }
 
 section.cover_a NAME {
