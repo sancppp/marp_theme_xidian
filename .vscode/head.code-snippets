@@ -28,12 +28,12 @@
 			"_class: cover_a -->"
 			"<style scoped>"
 			"section.cover_a THEME {",
-			"		/* 默认标题字体大小 */",
-			"		font-size: $3px;",
-			"		/* 标题大写 */",
-			"		text-transform: uppercase;",
-			"		/* 是否换行 */",
-			"		white-space: nowrap;",
+			"/* 默认标题字体大小 */",
+			"font-size: $3px;",
+			"/* 标题大写 */",
+			"text-transform: uppercase;",
+			"/* 是否换行 */",
+			"white-space: nowrap;",
 			"}",
 			"</style>",
 			"",
