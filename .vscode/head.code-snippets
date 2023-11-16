@@ -21,9 +21,9 @@
 			"math: katex",
 			"footer: \\ *田震雄* *$1* ",
 			"---",
-			"<!-- header: ![logo w:240px](../images/logo.png)  -->",
-			"<!-- backgroundImage: url(\"../images/bg2.png\") ",
-			"_backgroundImage: url(\"../images/bg.png\") ",
+			"<!-- header: ![logo w:240px](https://gitee.com/sancppsancpp/marp_theme_xidian/raw/main/images/logo.png)  -->",
+			"<!-- backgroundImage: url(\"https://gitee.com/sancppsancpp/marp_theme_xidian/raw/main/images/bg2.png\") ",
+			"_backgroundImage: url(\"https://gitee.com/sancppsancpp/marp_theme_xidian/raw/main/images/bg.png\") ",
 			"_paginate: false ",
 			"_class: cover_a -->"
 			"<style scoped>"
@@ -58,7 +58,7 @@
 			"",
 			"---",
 			"",
-			"![bg](../images/ending.png)"
+			"![bg](https://gitee.com/sancppsancpp/marp_theme_xidian/raw/main/images/ending.png)"
 		],
 		"description": "slide head"
 	},
