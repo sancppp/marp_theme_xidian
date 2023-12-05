@@ -30,6 +30,7 @@
     --color-quote: rgba(89, 193, 249, 0.591);
     --color-main: #211112;
     --color-coverbg: #a7535a;
+    --color-strong: #34afec;
     --color-much: #34afec;
     --color-trans: #b9757b;
     --color-navbar-bg: #edddde;
@@ -271,9 +272,9 @@ code {
 
 /* **strong** */
 strong {
-    font-size: 1.03rem;
+    font-size: 1.1rem;
     font-weight: bolder;
-    color: var(--color-much);
+    color: var(--color-strong);
 }
 
 em {
