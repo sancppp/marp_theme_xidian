@@ -52,7 +52,7 @@ _paginate: false  -->
     - [CAP理论](#cap理论)
   - [后续](#后续)
 
-![bg right:45% ](https://gitee.com/sancppsancpp/marp_theme_xidian/raw/main/images/bg5.jpg)
+![bg right:45% ](https://gitee.com/sancppsancpp/marp_theme_xidian/raw/main/images/bg5.png)
 <!-- 本次分享主要介绍第八章和第九章，也是我认为最有价值的两章 -->
 
 ## 《DDIA》介绍
